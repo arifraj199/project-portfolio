@@ -150,6 +150,7 @@ p {
     color: white;
     font-family: 'Playball', cursive;
     font-size: 35px;
+    line-height: 25px;
 }
 
 .footer p {
