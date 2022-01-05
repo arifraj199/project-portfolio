@@ -28,7 +28,7 @@ body {
 
 .half-width p {
     font-size: 20px;
-    line-height: 25px;
+    line-height: 28px;
 }
 
 .link-button {
@@ -58,7 +58,7 @@ body {
 
 .my-focused p {
     font-size: 20px;
-    line-height: 25px;
+    line-height: 28px;
 }
 
 .mission {
@@ -80,28 +80,51 @@ body {
     margin-left: 2%;
 }
 
-.develop-img {
-    width: 35%;
-    padding-left: 120px;
+.develop-bg {
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: 3%;
+    background-size: 260px 220px;
+}
+
+.project-img {
+    width: 40%;
+    padding-left: 5%;
     margin-top: 60px;
 }
 
-.develop-content {
-    width: 65%;
-    padding: 100px 120px 0 0;
+.project-content {
+    width: 60%;
+    padding: 10% 5% 0 0;
 }
 
-.develop-img img {
-    width: 90%;
+.project-img img {
+    width: 80%;
+    padding: 10%;
 }
 
-.develop-content h1 {
+.project-content h1 {
     font-size: 35px;
-    line-height: 12px;
+    line-height: 15px;
 }
 
-.develop-content p {
+.project-content p {
     font-size: 20px;
-    line-height: 25px;
-    padding-right: 25px;
+    line-height: 28px;
+    padding-right: 80px;
+}
+
+.community-bg {
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: 95% 100%;
+    background-size: 200px 180px;
+}
+
+.community-content {
+    padding: 10% 0 0 8%;
+}
+
+.community-img {
+    padding-right: 8%;
 }
