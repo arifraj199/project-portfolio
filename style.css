@@ -23,7 +23,7 @@ p {
 }
 
 .half-width img {
-    width: 60%;
+    width: 80%;
     padding-top: 10%;
 }
 
@@ -43,16 +43,18 @@ p {
 .link-button {
     text-decoration: none;
     color: white;
-    background: linear-gradient(teal, tomato);
+    background: linear-gradient(rgba(44, 32, 66, 0.76), rgba(218, 117, 50, 0.651));
     padding: 12px 25px;
     border-radius: 5px;
     line-height: 40px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .my-focused {
     width: 30%;
-    padding: 3% 2%;
+    padding: 2% 2% 0%;
 }
 
 .my-focused-heading {
@@ -78,19 +80,19 @@ p {
 }
 
 .mission {
-    background-color: #EDF5F6;
+    background-color: #c3cea6;
     border-radius: 20px;
     margin-right: 2%;
     margin-left: 10%;
 }
 
 .vission {
-    background-color: #FFEEEE;
+    background-color: #9bc8c2;
     border-radius: 20px;
 }
 
 .goals {
-    background-color: #FFF4D6;
+    background-color: #cca7d3;
     border-radius: 20px;
     margin-right: 10%;
     margin-left: 2%;
@@ -145,29 +147,10 @@ p {
     padding-right: 8%;
 }
 
-.footer {
-    background-color: #0B0D17;
-    padding: 15px 0;
-    margin-top: 15px;
-}
-
-.footer h1 {
-    text-align: center;
-    color: white;
-    font-family: 'Playball', cursive;
-    font-size: 35px;
-    line-height: 25px;
-}
-
-.footer p {
-    text-align: center;
-    color: rgb(134, 132, 132);
-    font-family: sans-serif;
-    font-size: 15px;
-}
-
 .contact-area {
     padding: 50px 80px 50px 30px;
+    background-color: rgb(231, 227, 233);
+    margin-top: 50px;
 }
 
 .contact-heading {
@@ -205,4 +188,24 @@ p {
 
 .textarea {
     border-radius: 5px;
+}
+
+.footer {
+    background-color: #0B0D17;
+    padding: 15px 0;
+}
+
+.footer h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Playball', cursive;
+    font-size: 35px;
+    line-height: 25px;
+}
+
+.footer p {
+    text-align: center;
+    color: rgb(134, 132, 132);
+    font-family: sans-serif;
+    font-size: 15px;
 }
