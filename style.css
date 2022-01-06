@@ -128,10 +128,6 @@ p {
     font-weight: 600;
 }
 
-.project-content p {
-    padding-right: 80px;
-}
-
 .community-bg {
     background-image: url("images/shapes/shape-1.png");
     background-repeat: no-repeat;
