@@ -24,14 +24,20 @@ p {
 
 .half-width img {
     width: 60%;
+    padding-top: 10%;
 }
 
 .heading-one {
     border-left: 4px solid red;
+    font-size: 70px;
     padding-left: 10px;
-    font-size: 40px;
-    line-height: 25px;
+    line-height: 70px;
     font-family: 'Zilla Slab', serif;
+}
+
+.heading-one-mission {
+    display: block;
+    color: rgb(28, 124, 100);
 }
 
 .link-button {
